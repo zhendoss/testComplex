@@ -1,4 +1,5 @@
 #include "complex.hpp"
+
 Complex::Complex():Re(0.0),Im(0.0){};
 Complex::Complex(double re, double im): Re(re), Im(im){}
 Complex::Complex(const Complex& other): Re(other.Re), Im(other.Im){}
